@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0px 55px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* section {
+  min-height: 100vh;
+} */
+/* header style start here */
+header {
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  background-color: aquamarine;
+}
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+.navigation ul li {
+  margin-left: 15px;
+}
+.navigation ul li a {
+  text-decoration: none;
+}
+.title-intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.left-content {
+  margin-top: 220px;
+  margin-left: 50px;
+  text-align: center;
+}
+.left-content h1 {
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.left-content p {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  font-family: fantasy;
+  font-size: 22px;
+  font-weight: normal;
+}
+.left-content button {
+  margin-top: 15px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.left-content button:hover {
+  color: rgb(255, 0, 0);
+  background-color: aliceblue;
+  border: 1px solid;
+  border-color: rgb(255, 0, 0);
+}
+.right-content {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.logo img {
+  height: 420px;
+}
+/* header style ends here */
+
+/* about start here*/
+.about-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  font-size: 26px;
+  font-weight: normal;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-left-about {
+  height: 700px;
+  width: 650px;
+}
+.img-left-about img {
+  width: 100%;
+  height: 100%;
+}
+.about-right-contet {
+  line-height: 2rem;
+}
+.about-right-contet h4 {
+  margin: 15px 0px;
+  text-align: center;
+  color: rgb(107, 56, 189);
+  font-size: 23px;
+}
+.about-right-contet ul {
+  margin: 10px 0px 0px;
+}
+.about-right-contet button {
+  margin-top: 15px;
+  margin-left: 130px;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(107, 56, 189);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.about-right-contet button:hover {
+  color: rgb(107, 56, 189);
+  background-color: aliceblue;
+  border: 1px solid rgb(107, 56, 189);
+}
+
+/* about ends here */
+
+/* contact section */
+section .contact {
+  /* background-color: rgba(102, 92, 92, 0.514); */
+  height: 40vh;
+}
+.contact-heading {
+  margin: 25px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  font-size: 26px;
+  font-weight: normal;
+}
+.content-contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon-content-contact ul {
+  list-style: none;
+  margin: 50px;
+  display: inline-block;
+}
+.icon-content-contact ul li {
+  margin-bottom: 15px;
+}
+.icon-content-contact ul li img {
+  margin-top: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  height: 20px;
+}
+.icon-content-contact ul li a {
+  text-decoration: none;
+}
+.social-icons-contact ul {
+  display: flex;
+  padding: 0%;
+  background-color: rgba(0, 0, 0, 0.418);
+  width: 215px;
+  height: 60px;
+}
+.social-icons-contact ul li {
+  margin-right: 20px;
+  margin-top: 0%;
+  margin-bottom: 0;
+}
+.social-icons-contact ul li img {
+  height: 30px;
+}
+.right-contact-content {
+  margin: 50px 0px 0px;
+}
+.right-contact-content input {
+  margin: 0px 0px 15px;
+  display: block;
+  height: 45px;
+  width: 330px;
+  border: 0.1px solid black;
+  border-radius: 10px;
+}
+.right-contact-content textarea {
+  width: 330px;
+  border-radius: 10px;
+  border: 0.1px solid black;
+}
+/* contact section */
+
+/* footer */
+footer {
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  line-height: 1rem;
+}
+/* footer */
